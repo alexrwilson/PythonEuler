@@ -6,9 +6,9 @@ def is_palindrome(number):
 def get_palindrome(limit):
 	x = limit
 	largest_palindrome = 0
-	while x > 99:
+	while x > 1:
 		y = limit
-		while y > 99:
+		while y > 1:
 			print x, " * ", y, " = ", x * y
 			if is_palindrome(x * y) and x * y > largest_palindrome:
 				largest_palindrome =  x * y
