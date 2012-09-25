@@ -16,5 +16,5 @@ def get_palindrome(limit):
 		x = x - 1
 	return largest_palindrome
 
-
-print get_palindrome(999)
+if __name__ == '__main__':
+	print get_palindrome(999)

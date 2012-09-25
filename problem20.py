@@ -6,5 +6,5 @@ def sum_digits(number):
 
 
 
-
-print sum_digits(factorial(100))
+if __name__ == '__main__':
+	print sum_digits(factorial(100))

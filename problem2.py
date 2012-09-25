@@ -10,7 +10,9 @@ def fibonacci (limit):
 		current = temp + last
 	return total
 
-print fibonacci(4000000)
+
+if __name__ == '__main__':
+	print fibonacci(4000000)
 
 
 

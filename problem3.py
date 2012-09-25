@@ -19,6 +19,9 @@ def largest_prime_factor(num):
 		divisor = divisor - 1
 	return 0
 
-print largest_prime_factor(600851475143)
+
+
+if __name__ == '__main__':
+	print largest_prime_factor(600851475143)
 
 
